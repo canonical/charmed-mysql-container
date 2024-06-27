@@ -1,14 +1,14 @@
-name: charmed-mysql # the name of your ROCK
-base: ubuntu@22.04 # the base environment for this ROCK
-version: '8.0.37' # just for humans. Semantic versioning is recommended
-summary: Charmed MySQL ROCK OCI # 79 char long summary
+name: charmed-mysql
+base: ubuntu@22.04
+version: '8.0.37'
+summary: Charmed MySQL ROCK OCI
 description: |
     MySQL built from the official MySQL package
     from the MySQL repository and installs
     mysql-shell.  For more information on ROCKs, visit
     the https://github.com/canonical/rockcraft.
-license: Apache-2.0 # your application's SPDX license
-platforms: # The platforms this ROCK should be built on and run on
+license: Apache-2.0
+platforms:
     amd64:
 
 parts:
