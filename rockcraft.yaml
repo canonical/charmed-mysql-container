@@ -37,6 +37,14 @@ parts:
             # mysqlsh dependencies
             - python3-certifi
             - python3-yaml
+        stage-packages:
+            - libnuma1
+            - libaio1
+            - libicu70
+            - libevent-core-2.1-7
+            - libevent-pthreads-2.1-7
+            - libicu70
+            - libprotobuf-lite23
         stage-snaps:
             - charmed-mysql/8.0/edge
         override-stage: |
