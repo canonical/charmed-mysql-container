@@ -33,6 +33,9 @@ parts:
             - python3-yaml
         stage-snaps:
             - charmed-mysql/8.0/edge
+        override-stage: |
+            craftctl default
+            chown 584788:584788 $CRAFT_STAGE/var/lib/mysql
         override-prime: |
             craftctl default
             mv -f $CRAFT_PRIME/etc/mysql/mysql.cnf $CRAFT_PRIME/etc/mysql/my.cnf
