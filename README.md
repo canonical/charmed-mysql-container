@@ -1,6 +1,5 @@
 # MySQL Server ROCK
-[![Publish](https://github.com/canonical/charmed-mysql-rock/actions/workflows/publish.yaml/badge.svg)](https://github.com/canonical/charmed-mysql-rock/actions/workflows/publish.yaml)
-[![Tests](https://github.com/canonical/charmed-mysql-rock/actions/workflows/integration.yaml/badge.svg)](https://github.com/canonical/charmed-mysql-rock/actions/workflows/integration.yaml)
+[![Release to GHCR](https://github.com/canonical/charmed-mysql-rock/actions/workflows/release.yaml/badge.svg)](https://github.com/canonical/charmed-mysql-rock/actions/workflows/release.yaml)
 
 This repository contains the packaging metadata for creating a ROCK of MySQL built from the official ubuntu MySQL package from the Ubuntu repository and further installs mysql-shell.  For more information on ROCKs, visit the [rockcraft Github](https://github.com/canonical/rockcraft). 
 
