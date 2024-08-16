@@ -1,4 +1,6 @@
 # MySQL Server ROCK
+[![Release to GHCR](https://github.com/canonical/charmed-mysql-rock/actions/workflows/release.yaml/badge.svg)](https://github.com/canonical/charmed-mysql-rock/actions/workflows/release.yaml)
+
 This repository contains the packaging metadata for creating a ROCK of MySQL built from the official ubuntu MySQL package from the Ubuntu repository and further installs mysql-shell.  For more information on ROCKs, visit the [rockcraft Github](https://github.com/canonical/rockcraft). 
 
 Built for use in the [MySQL k8s charm](https://github.com/canonical/mysql-k8s-operator).
