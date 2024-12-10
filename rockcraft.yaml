@@ -1,11 +1,11 @@
 name: charmed-mysql
 base: ubuntu@22.04
 version: '8.0.39'
-summary: Charmed MySQL ROCK OCI
+summary: Charmed MySQL rock OCI
 description: |
     MySQL built from the official MySQL package
     from the MySQL repository and installs
-    mysql-shell.  For more information on ROCKs, visit
+    mysql-shell.  For more information on rocks, visit
     the https://github.com/canonical/rockcraft.
 license: Apache-2.0
 platforms:
